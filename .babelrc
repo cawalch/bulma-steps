@@ -17,9 +17,8 @@
   "plugins": [
     "transform-object-rest-spread",
     ["transform-runtime", {
-      "helpers": false, // defaults to true
-      "polyfill": false, // defaults to true
-      "regenerator": true, // defaults to true
+      "helpers": false,
+      "polyfill": false,
     }]
   ]
 }
